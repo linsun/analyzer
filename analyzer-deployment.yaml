@@ -25,11 +25,11 @@ spec:
             memory: 100Mi
         env:
         - name: VCAP_SERVICES_TONE_ANALYZER_API_KEY
-          value: "API_KEY"
+          value: "E_3IJZUe1pMKyxrJeqr82KhNKvmaDOyIphmDgx3v8Mnm"
         - name : VCAP_SERVICES_TONE_ANALYZER_TOKEN_ADDRESS
           value: "https://iam.bluemix.net/identity/token"
         - name: VCAP_SERVICES_TONE_ANALYZER_SERVICE_API
-          value: "TONE_API"
+          value: "https://gateway.watsonplatform.net/tone-analyzer/api"
         ports:
         - containerPort: 5000
           name: http
